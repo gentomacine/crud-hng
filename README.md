@@ -29,15 +29,16 @@ via tools like Postman, or from your frontend application
 No Authentication required
 
 # Endpoints
-Below are list of endpoints along with their HTTP methods and purposes
+Below are list of endpoints along with their HTTP methods and purposes. Examples in documentation 
 ```bash
-- **Create:**
+ Create:
+```
 - *Endpoint*: /api
 - *Method*: POST
 - Description: Creates a single user with just full_name and return the created user
-```
+
 ```bash
- **Read:**
+ Read:
 ```
 - *Endpoint*: /api
 - *Method*: GET
@@ -46,14 +47,14 @@ Below are list of endpoints along with their HTTP methods and purposes
 
 
 ```bash
- **Delete:**
+ Delete:
 ```
 - *Endpoint*: /api:Id
 - *Method*: DELETE
 - Description: Creates a single user with just full_name and return the created user
 
 ```bash
- **Update:**
+ Update:
 ```
 - *Endpoint*: /api:userId
 - *Method*: PUT
