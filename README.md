@@ -50,11 +50,12 @@ Below are list of endpoints along with their HTTP methods and purposes
 - *Method*: DELETE
 - Description: Creates a single user with just full_name and return the created user
 ```
-```bash
+
 - **Update:**
 - *Endpoint*: /api:userId
 - *Method*: PUT
-- Description: Creates a single user with just full_name and return the created user
+```bash
+ Description: Creates a single user with just full_name and return the created user
 ```
 # Deployment
 
