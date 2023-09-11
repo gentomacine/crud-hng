@@ -62,8 +62,8 @@ Below are list of endpoints along with their HTTP methods and purposes. Examples
 
 
 # Deployment
-Hosted on render
-Link to hosted [Render-URL](https://hngx-crud.onrender.com)
+Hosted on render <br>
+Link to hosted URL [Render-URL](https://hngx-crud.onrender.com)
 
 
 # Documentation
