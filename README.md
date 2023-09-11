@@ -62,7 +62,11 @@ Below are list of endpoints along with their HTTP methods and purposes. Examples
 
 
 # Deployment
+Hosted on render
+Link to hosted [Render-URL](https://hngx-crud.onrender.com)
 
 
 # Documentation
+
+Click link for hngx-crud  [postman-documentation](https://documenter.getpostman.com/view/25381392/2s9YC1XaKh)
 
