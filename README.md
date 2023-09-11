@@ -66,7 +66,8 @@ Hosted on render <br>
 Link to hosted URL [Render-URL](https://hngx-crud.onrender.com)
 
 
-# Documentation
+# Documentation/Testing
+Used Postman for documentation and testing end points <br>
 
 Click link for hngx-crud  [postman-documentation](https://documenter.getpostman.com/view/25381392/2s9YC1XaKh)
 
