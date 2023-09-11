@@ -66,8 +66,13 @@ Hosted on render <br>
 Link to hosted URL [Render-URL](https://hngx-crud.onrender.com)
 
 
+
 # Documentation/Testing
 Used Postman for documentation and testing end points <br>
 
 Click link for hngx-crud  [postman-documentation](https://documenter.getpostman.com/view/25381392/2s9YC1XaKh)
 
+
+## UML DIAGRAM
+
+Link for UML diagram [ UML](https://lucid.app/lucidchart/91b47ac6-ba4d-4295-b3a3-cc9adb780bb4/edit?viewport_loc=-1863%2C-552%2C5109%2C2280%2C0_0&invitationId=inv_47605203-1c75-4bad-aa62-02c4bed7ea11)
