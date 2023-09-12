@@ -20,32 +20,30 @@ export const createUser = async (req, res) => {
   
 
 
-// Get a user by name
-export const getUserByName = async (req, res) => {
-    try {
-      // Retrieve the value of the "full_name" query parameter
-      const { full_name } = req.query;
-  
-      // Create a regular expression pattern with the "full_name" query parameter
-      const regex = new RegExp(full_name, 'i');
-  
-      // Search for the user by full_name using the case-insensitive regular expression
-      const user = await User.findOne({ full_name: { $regex: regex } });
-  
-      if (!user) {
-        return res.status(404).json({ message: 'User not found' });
-      }
-  
-      res.json({
-        full_name: user.full_name,
-      });
-    } catch (error) {
-      res.status(500).json({ error: error.message });
+// Get a user by id
+export const getUserById = async (req, res) => {
+  try {
+    // Retrieve the value of the "id" parameter from the request URL
+    const { Id } = req.params;
+
+    // Search for the user by ID
+    const user = await User.findById(Id);
+
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
     }
-  };
+
+    res.json({
+      full_name: user.full_name,
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
   
 
-// Delete a user by name
+// Delete a user by id
 export const deleteUser = async (req, res) => {
     try {
     const user = await User.findByIdAndDelete(req.params.Id);
