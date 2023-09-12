@@ -42,8 +42,8 @@ Below are list of endpoints along with their HTTP methods and purposes. Examples
 ```
 - *Endpoint*: /api
 - *Method*: GET
-- Description:  retrieve user data based on their full name. It is designed to perform <br>
-                a case-insensitive search and return the users full name
+- Description:  retrieve user data based on their user ID. It is designed to perform <br>
+                
 
 
 ```bash
